@@ -111,7 +111,7 @@ Lorem ipsum
 
 **6. Unfortunately, Italo is having a bit of a personal emergency, and he would like to move to our Winter Cohort. Please move the `Italo.txt` file from `FallCohort` to the `WinterCohort` folder.**
 <p>
-<img src="" height="100%" width="100%"/>
+<img src="https://i.imgur.com/PcSVWkD.png" height="100%" width="100%"/>
 </p>
 
 Lorem ipsum
