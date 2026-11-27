@@ -11,6 +11,8 @@ Credit to Colt Steele’s Udemy course, **The Linux Command Line Bootcamp: Begin
 <h2>The Commands</h2>
 
 - `rm`
+	- `-r`
+	- `-I`
 - `mv`
 - `cp`
 - `mkdir`
