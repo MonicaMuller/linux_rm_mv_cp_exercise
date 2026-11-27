@@ -119,7 +119,7 @@ I used `mv` to rename `Sara.txt` to `Sarah.txt` by specifying the original and n
 <img src="https://i.imgur.com/PcSVWkD.png" height="100%" width="100%"/>
 </p>
 
-Lorem ipsum
+I used `mv` with relative paths to move `Italo.txt` from the `FallCohort` directory to the `WinterCohort` directory. I then used `ls` to check the contents of both directories, followed by `ls -R` to verify the updated `Bootcamp` directory structure.
 
 <br />
 <br />
@@ -129,7 +129,7 @@ Lorem ipsum
 <img src="https://i.imgur.com/5z0Ywra.png" height="100%" width="100%"/>
 </p>
 
-Lorem ipsum
+I used `cp -r` to recursively copy the `WinterCohort` directory and its contents into a new directory called `SpringCohort`. I then used `ls -R` to confirm that both directories existed and contained the same files.
 
 <br />
 <br />
@@ -139,7 +139,7 @@ Lorem ipsum
 <img src="https://i.imgur.com/sWgIltv.png" height="100%" width="100%"/>
 </p>
 
-Lorem ipsum
+I used `mv` with relative paths to rename the `WinterCohort` directory to `WinterCohortCANCELLED`. I then used `ls -R` to confirm that the directory had been renamed successfully and that its contents remained intact.
 
 <br />
 <br />
@@ -149,12 +149,12 @@ Lorem ipsum
 <img src="https://i.imgur.com/4zhuiry.png" height="100%" width="100%"/>
 </p>
 
-Lorem ipsum
+I used `rm -r` to recursively delete the entire `Bootcamp` directory, including all of its subdirectories and files. I could visually confirm that the directory had been removed because it was no longer present on my desktop.
 
 <br />
 <br />
 
 <p>
-✨ Lorem ipsum
+✨ I really enjoyed this exercise! It was fun getting hands-on experience with some commonly used Linux commands, learning about their various options, and experimenting a little with Bash on my own. I especially enjoyed figuring out how to accomplish things more efficiently, and I’m looking forward to learning more ways to do so in the Linux terminal.
 </p>
 <br />
