@@ -49,7 +49,7 @@ Before we can delete, move, or copy things...we need things! It's time to get so
 2. Sadly, `Edgar` had to drop out of the course. Delete the `Edgar.txt` file in `FallCohort`.
 3. This means we now have space in our Fall Cohort to move someone off of the waitlist. Please move `Netta.txt` from the `Waitlist` folder into the `FallCohort` folder.
 4. Please delete the `Waitlist` folder and its contents.
-5. It turns out that I misspelled Sara. She spells her name "Sarah" with an "h" at the end.  Please rename the `Sara.txt` file to `Sarah.txt`.
+5. It turns out that I misspelled Sara. She spells her name "Sarah" with an "h" at the end. Please rename the `Sara.txt` file to `Sarah.txt`.
 6. Unfortunately, Italo is having a bit of a personal emergency, and he would like to move to our Winter Cohort. Please move the `Italo.txt` file from `FallCohort` to the `WinterCohort` folder.
 7. Our entire Winter Cohort had to be cancelled because of a worldwide pandemic. We decided to bump all of the scheduled winter students to spring. In the `Bootcamp` directory, create a copy of the `WinterCohort` folder called `SpringCohort`.
 8. Please rename the WinterCohort folder to `WinterCohortCANCELLED`.
@@ -99,9 +99,9 @@ Lorem ipsum
 <br />
 <br />
 
-**5. It turns out that I misspelled Sara. She spells her name "Sarah" with an "h" at the end.  Please rename the `Sara.txt` file to `Sarah.txt`.**
+**5. It turns out that I misspelled Sara. She spells her name "Sarah" with an "h" at the end. Please rename the `Sara.txt` file to `Sarah.txt`.**
 <p>
-<img src="" height="100%" width="100%"/>
+<img src="https://i.imgur.com/N4921JT.png" height="100%" width="100%"/>
 </p>
 
 Lorem ipsum
