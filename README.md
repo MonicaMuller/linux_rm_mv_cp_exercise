@@ -63,7 +63,9 @@ Before we can delete, move, or copy things...we need things! It's time to get so
 <img src="https://i.imgur.com/uL2Qyat.png" height="100%" width="100%"/>
 </p>
 
-I used `mkdir -p` with brace expansion to create the required directory structure, followed by `touch` with brace expansion to create all the necessary files. I connected the two commands using `&&` to ensure that the files would only be created if the directory creation was successful. I then used `ls -R` to recursively list the contents of `Bootcamp` and confirm that the structure matched the exercise requirements.
+Rather than running multiple commands individually to create the required directories and files, I wanted to see if there was a more efficient way to accomplish this. I did some independent research using Google and learned how to use brace expansion and combine commands with `&&`, neither of which had been covered in the course up to this point.
+
+I used `mkdir -p` with brace expansion to create the required directory structure, followed by `touch` with brace expansion to create all the necessary files. I connected the two commands using `&&` to ensure that the second command would only execute if the first completed successfully. I then used `ls -R` to recursively list the contents of `Bootcamp` and confirm that the directory structure matched the exercise requirements.
 
 (Edit to add: After completing this step, I learned that I could make the command even more concise by using nested brace expansion and specifying the .txt extension only once, as shown below.)
 <br />
