@@ -52,7 +52,7 @@ Before we can delete, move, or copy things...we need things! It's time to get so
 5. It turns out that I misspelled Sara. She spells her name "Sarah" with an "h" at the end. Please rename the `Sara.txt` file to `Sarah.txt`.
 6. Unfortunately, Italo is having a bit of a personal emergency, and he would like to move to our Winter Cohort. Please move the `Italo.txt` file from `FallCohort` to the `WinterCohort` folder.
 7. Our entire Winter Cohort had to be cancelled because of a worldwide pandemic. We decided to bump all of the scheduled winter students to spring. In the `Bootcamp` directory, create a copy of the `WinterCohort` folder called `SpringCohort`.
-8. Please rename the WinterCohort folder to `WinterCohortCANCELLED`.
+8. Please rename the `WinterCohort` folder to `WinterCohortCANCELLED`.
 9. We're going out of business. Please delete the entire `Bootcamp` directory.
 
 <h2>What I Did</h2>
@@ -121,7 +121,7 @@ Lorem ipsum
 
 **7. Our entire Winter Cohort had to be cancelled because of a worldwide pandemic. We decided to bump all of the scheduled winter students to spring. In the `Bootcamp` directory, create a copy of the `WinterCohort` folder called `SpringCohort`.**
 <p>
-<img src="" height="100%" width="100%"/>
+<img src="https://i.imgur.com/5z0Ywra.png" height="100%" width="100%"/>
 </p>
 
 Lorem ipsum
@@ -129,9 +129,9 @@ Lorem ipsum
 <br />
 <br />
 
-**8.  Please rename the WinterCohort folder to `WinterCohortCANCELLED`.**
+**8. Please rename the `WinterCohort` folder to `WinterCohortCANCELLED`.**
 <p>
-<img src="" height="100%" width="100%"/>
+<img src="https://i.imgur.com/sWgIltv.png" height="100%" width="100%"/>
 </p>
 
 Lorem ipsum
@@ -141,7 +141,7 @@ Lorem ipsum
 
 **9. We're going out of business. Please delete the entire `Bootcamp` directory.**
 <p>
-<img src="" height="100%" width="100%"/>
+<img src="https://i.imgur.com/4zhuiry.png" height="100%" width="100%"/>
 </p>
 
 Lorem ipsum
