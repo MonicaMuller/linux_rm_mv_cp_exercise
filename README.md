@@ -79,7 +79,7 @@ Lorem ipsum
 
 **3. This means we now have space in our Fall Cohort to move someone off of the waitlist. Please move `Netta.txt` from the `Waitlist` folder into the `FallCohort` folder.**
 <p>
-<img src="" height="100%" width="100%"/>
+<img src="https://i.imgur.com/L6Ausjx.png" height="100%" width="100%"/>
 </p>
 
 Lorem ipsum
