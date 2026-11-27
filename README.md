@@ -91,7 +91,7 @@ Lorem ipsum
 
 **4. Please delete the `Waitlist` folder and its contents.**
 <p>
-<img src="" height="100%" width="100%"/>
+<img src="https://i.imgur.com/01gGih4.png" height="100%" width="100%"/>
 </p>
 
 Lorem ipsum
