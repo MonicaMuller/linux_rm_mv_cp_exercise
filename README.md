@@ -1,7 +1,7 @@
 <p align="center">
 <img src="https://i.imgur.com/fC0aNrA.png" height="40%" width="60%" alt="Linux"/>
 </p>
-<h1>Linux Exercise: Deleting, Moving & Copying</h1>
+<h1>Linux Exercise: Deleting, Moving, & Copying</h1>
 
 In this exercise, I...
 
