@@ -3,7 +3,7 @@
 </p>
 <h1>Linux Exercise: Deleting, Moving, & Copying</h1>
 
-In this exercise, I practiced deleting, moving, renaming, and copying files and directories from the Linux command line while building on my previous knowledge of relative paths, file creation, and directory management.
+In this exercise, I deleted, moved, renamed, and copied files and directories from the Linux command line while building on my previous knowledge of relative paths, file creation, and directory management.
 
 Credit to Colt Steele’s Udemy course, **The Linux Command Line Bootcamp: Beginner to Power User**, for providing both the exercise and the knowledge needed to complete it.
 <br />
