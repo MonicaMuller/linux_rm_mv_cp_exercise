@@ -99,7 +99,7 @@ I used `mv` with relative paths to move `Netta.txt` from the `Waitlist` subdirec
 <img src="https://i.imgur.com/01gGih4.png" height="100%" width="100%"/>
 </p>
 
-I used `rm -rI` to recursively delete the Waitlist directory and its contents while being prompted for confirmation before proceeding. After confirming the removal, I used `ls -R` to verify that the `Waitlist` directory and its remaining files were no longer present in the Bootcamp directory structure.
+I used `rm -rI` to recursively delete the `Waitlist` directory and its contents while being prompted for confirmation before proceeding. After confirming the removal, I used `ls -R` to verify that the `Waitlist` directory and its remaining files were no longer present in the `Bootcamp` directory structure.
 
 <br />
 <br />
