@@ -3,26 +3,27 @@
 </p>
 <h1>Linux Exercise: Deleting, Moving, & Copying</h1>
 
-In this exercise, I...
+In this exercise, I practiced deleting, moving, renaming, and copying files and directories from the Linux command line while building on my previous knowledge of relative paths, file creation, and directory management.
 
 Credit to Colt Steele’s Udemy course, **The Linux Command Line Bootcamp: Beginner to Power User**, for providing both the exercise and the knowledge needed to complete it.
 <br />
 
-<h2>The Commands</h2>
+<h2>Commands, Options, & Shell Features</h2>
 
-- `rm`
-	- `-r`
-	- `-I`
-- `mv`
-- `cp`
-- `mkdir`
-  - `-p`
-- `touch`
-- `ls`
-  - `-R`
-- Honorable mentions:
-  - `&&`
-  - `{ }`
+- `rm` — Removes files and, with the appropriate options, directories.
+  - `-r` — Recursively removes directories and their contents.
+  - `-I` — Prompts for confirmation once before removing more than three files or performing a recursive removal.
+- `mv` — Moves or renames files and directories.
+- `cp` — Copies files and, with the appropriate options, directories.
+  - `-r` — Recursively copies directories and their contents.
+- `mkdir` — Creates directories.
+  - `-p` — Creates any necessary parent directories that do not already exist.
+- `touch` — Creates empty files if they do not already exist or updates the timestamps of existing files.
+- `ls` — Lists directory contents.
+  - `-R` — Recursively lists directories and their contents.
+- Honorable mentions (Bash shell features):
+  - `&&` — Executes the next command only if the preceding command completes successfully.
+  - `{}` — Brace expansion, which generates multiple strings from a single expression.
 
 <h2>The Exercise</h2>
 
@@ -62,9 +63,11 @@ Before we can delete, move, or copy things...we need things! It's time to get so
 <img src="https://i.imgur.com/uL2Qyat.png" height="100%" width="100%"/>
 </p>
 
-Lorem ipsum
+I used `mkdir -p` with brace expansion to create the required directory structure, followed by `touch` with brace expansion to create all the necessary files. I connected the two commands using `&&` to ensure that the files would only be created if the directory creation was successful. I then used `ls -R` to recursively list the contents of `Bootcamp` and confirm that the structure matched the exercise requirements.
 
-(Edit to add: After I did this, I learned that I could have written ".txt" just once in this command if I used `touch Bootcamp/{FallCohort/{Italo,Edgar,Linus,Sara,Silvio},FallCohort/Waitlist/{Hanna,Haris,Netta},WinterCohort/{Santiago,Iris,Naomi}}.txt`)
+(Edit to add: After completing this step, I learned that I could make the command even more concise by using nested brace expansion and specifying the .txt extension only once, as shown below.)
+<br />
+`touch Bootcamp/{FallCohort/{Italo,Edgar,Linus,Sara,Silvio},FallCohort/Waitlist/{Hanna,Haris,Netta},WinterCohort/{Santiago,Iris,Naomi}}.txt`
 
 <br />
 <br />
@@ -74,7 +77,7 @@ Lorem ipsum
 <img src="https://i.imgur.com/qM5Ig7e.png" height="100%" width="100%"/>
 </p>
 
-Lorem ipsum
+I used `rm` with a relative path to delete `Edgar.txt` from the `FallCohort` directory without leaving my current working directory. I then used `ls` to confirm that the file was no longer present.
 
 <br />
 <br />
@@ -84,7 +87,7 @@ Lorem ipsum
 <img src="https://i.imgur.com/L6Ausjx.png" height="100%" width="100%"/>
 </p>
 
-Lorem ipsum
+I used `mv` with relative paths to move `Netta.txt` from the `Waitlist` subdirectory into its parent directory, `FallCohort`. I then used `ls` to check the contents of both directories and confirm that the file had been moved successfully.
 
 <br />
 <br />
@@ -94,7 +97,7 @@ Lorem ipsum
 <img src="https://i.imgur.com/01gGih4.png" height="100%" width="100%"/>
 </p>
 
-Lorem ipsum
+I used `rm -rI` to recursively delete the Waitlist directory and its contents while being prompted for confirmation before proceeding. After confirming the removal, I used `ls -R` to verify that the `Waitlist` directory and its remaining files were no longer present in the Bootcamp directory structure.
 
 <br />
 <br />
@@ -104,7 +107,7 @@ Lorem ipsum
 <img src="https://i.imgur.com/N4921JT.png" height="100%" width="100%"/>
 </p>
 
-Lorem ipsum
+I used `mv` to rename `Sara.txt` to `Sarah.txt` by specifying the original and new filenames using relative paths within the same directory. I then used `ls` to confirm that the file had been renamed successfully.
 
 <br />
 <br />
