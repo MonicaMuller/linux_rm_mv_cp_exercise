@@ -157,4 +157,3 @@ I used `rm -r` to recursively delete the entire `Bootcamp` directory, including 
 <p>
 ✨ I really enjoyed this exercise! It was fun getting hands-on experience with some commonly used Linux commands, learning about their various options, and experimenting a little with Bash on my own. I especially enjoyed figuring out how to accomplish things more efficiently, and I’m looking forward to learning more ways to do so in the Linux terminal.
 </p>
-<br />
